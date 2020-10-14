@@ -1,3 +1,4 @@
+import createElement from "./domMethods.js"
 // Setting up dummy topics data
 let topicData = [{
   id: 1,

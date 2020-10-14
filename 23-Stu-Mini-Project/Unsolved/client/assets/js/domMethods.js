@@ -1,5 +1,5 @@
 // Helper function for creating elements
-export function createElement(type, attributes, ...children) {
+export default function createElement(type, attributes, ...children) {
     const element = document.createElement(type);
   
     if (typeof attributes === "object") {
